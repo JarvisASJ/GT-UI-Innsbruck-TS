@@ -1,14 +1,20 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
     "module": "commonjs",
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "sourceMap": false,
+    "sourceMap": true,
+    "target": "es6",
+    "outDir": "../dist"
   },
   "include": [
-    "../ui/tests/**/*.ts"
+    "../ui/tests/**/*.ts", "behavior/features/**/**/*.feature", "behavior/steps/**/**/*.ts","ui/**/**/**/*.js",
+    "../ui/pages/gw/registry/onApp.js", "../node_modules/@gtui/gt-ui-framework/**/*",
+    "decs.d.ts"
   ],
   "exclude": [
     "../node_modules/**/*",
