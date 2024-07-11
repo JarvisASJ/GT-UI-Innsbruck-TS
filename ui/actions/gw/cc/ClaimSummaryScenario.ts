@@ -4,9 +4,9 @@ import { ClaimMenuLinks } from '../../../pages/gw/generated/claimsolutions/pages
 import { t } from 'testcafe'
 import world from "../../../util/gw/world";
 
-const claimStatus = new ClaimStatus()
-const claimMenuLinks = new ClaimMenuLinks();
-const claimSummary_Ext = new ClaimSummary_Ext()
+const claimStatus: ClaimStatus = new ClaimStatus()
+const claimMenuLinks: ClaimMenuLinks = new ClaimMenuLinks();
+const claimSummary_Ext: ClaimSummary_Ext = new ClaimSummary_Ext()
 
 export class ClaimSummaryScenario {
     async verifyClaimStatus(): Promise<void> {

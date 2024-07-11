@@ -1,5 +1,6 @@
 const dataMap = new Map();
-
-export default {
-    dataMap
+const coverageDataMap = new Map();
+const vehicleDataMap = new Map();
+export default{
+    dataMap,coverageDataMap, vehicleDataMap
 }
