@@ -1,20 +1,20 @@
-import { When, Then } from "@cucumber/cucumber";
-import { SearchScenario } from "../../../../ui/actions/gw/cc/SearchScenario";
-import { NavigationScenario } from "../../../../ui/actions/gw/cc/NavigationScenario";
-import { ClaimSummaryScenario } from "../../../../ui/actions/gw/cc/ClaimSummaryScenario";
-import helper from "../../../../ui/util/gw/helper";
-import world from "../../../../ui/util/gw/world";
+import { When, Then } from '@cucumber/cucumber';
+import { SearchScenario } from '../../../../ui/actions/gw/cc/SearchScenario'
+import { NavigationScenario } from '../../../../ui/actions/gw/cc/NavigationScenario';
+import { ClaimSummaryScenario } from '../../../../ui/actions/gw/cc/ClaimSummaryScenario';
+import helper from '../../../../ui/util/gw/helper';
+import world from '../../../../ui/util/gw/world';
 
 const searchScenario: SearchScenario = new SearchScenario();
 const navigationScenario: NavigationScenario = new NavigationScenario();
 const claimSummaryScenario: ClaimSummaryScenario = new ClaimSummaryScenario();
 
-When(/^the user searches for the policy in Search Claims/, async function (): Promise<void> {
+When(/^the user searches for the policy in Search Claims/, async (): Promise<void> => {
     await navigationScenario.navigateSearchPolicyScreen();
     await searchScenario.searchWithPolicy(world.dataMap.get('PolicyNumber'));
 });
 
-Then(/^the claim details are loaded successfully/, async function (): Promise<void> {
+Then(/^the claim details are loaded successfully/, async (): Promise<void> => {
     await helper.searchTableRecord("Claim", world.dataMap.get('ClaimNo'));
     await claimSummaryScenario.verifySummaryHeader();
 });

@@ -1,9 +1,9 @@
-import { FNOLWizard_Ext } from "./scenarioPages/claim/FNOLWizard_Ext";
-import helper from "../../../util/gw/helper";
-import { NewContactPopup } from "../../../pages/gw/generated/claimsolutions/pages/popup/New/NewContactPopup";
-import { NewClaimSaved_Ext } from "./scenarioPages/other/NewClaimSaved_Ext";
-import world from "../../../util/gw/world";
-import { t } from "testcafe";
+import { FNOLWizard_Ext } from './scenarioPages/claim/FNOLWizard_Ext'
+import helper from '../../../util/gw/helper'
+import { NewContactPopup } from '../../../pages/gw/generated/claimsolutions/pages/popup/New/NewContactPopup'
+import { NewClaimSaved_Ext } from './scenarioPages/other/NewClaimSaved_Ext';
+import world from '../../../util/gw/world';
+import { t } from 'testcafe';
 
 const fNOLWizard_Ext: FNOLWizard_Ext = new FNOLWizard_Ext();
 const newContactPopup: NewContactPopup = new NewContactPopup();

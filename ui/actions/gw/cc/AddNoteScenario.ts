@@ -1,8 +1,8 @@
-import { ClaimNotes } from "../../../pages/gw/generated/claimsolutions/pages/claim/ClaimNotes";
-import { ClaimMenuLinks } from "../../../pages/gw/generated/claimsolutions/pages/navigation/menuLinks/ClaimMenuLinks";
-import { NewNoteWorkSheet_Ext } from "./scenarioPages/notes/NewNoteWorkSheet_Ext";
-import world from "../../../util/gw/world"
-import { t } from "testcafe"
+import { ClaimNotes } from '../../../pages/gw/generated/claimsolutions/pages/claim/ClaimNotes';
+import { ClaimMenuLinks } from '../../../pages/gw/generated/claimsolutions/pages/navigation/menuLinks/ClaimMenuLinks';
+import { NewNoteWorkSheet_Ext } from './scenarioPages/notes/NewNoteWorkSheet_Ext';
+import world from '../../../util/gw/world'
+import { t } from 'testcafe'
 
 const claimNotes: ClaimNotes = new ClaimNotes();
 const claimMenuNotes: ClaimMenuLinks = new ClaimMenuLinks();

@@ -1,5 +1,5 @@
-import { ClaimTabBar_Ext } from "./scenarioPages/navigation/tabBar/ClaimTabBar_Ext";
-import { SearchTabBar_Ext } from "./scenarioPages/navigation/tabBar/SearchTabBar_Ext"
+import { ClaimTabBar_Ext } from './scenarioPages/navigation/tabBar/ClaimTabBar_Ext'
+import { SearchTabBar_Ext } from './scenarioPages/navigation/tabBar/SearchTabBar_Ext'
 
 const claimTabBar_Ext: ClaimTabBar_Ext = new ClaimTabBar_Ext();
 const searchTabBar_Ext: SearchTabBar_Ext = new SearchTabBar_Ext();

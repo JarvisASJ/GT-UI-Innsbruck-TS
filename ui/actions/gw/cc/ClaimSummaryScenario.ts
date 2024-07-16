@@ -1,8 +1,8 @@
-import { ClaimStatus } from "../../../pages/gw/generated/claimsolutions/pages/claim/claimSummaryGroup/ClaimStatus";
-import { ClaimSummary_Ext } from "./scenarioPages/claim/claimSummaryGroup/ClaimSummary_Ext";
+import { ClaimStatus } from '../../../pages/gw/generated/claimsolutions/pages/claim/claimSummaryGroup/ClaimStatus'
+import { ClaimSummary_Ext } from './scenarioPages/claim/claimSummaryGroup/ClaimSummary_Ext'
 import { ClaimMenuLinks } from '../../../pages/gw/generated/claimsolutions/pages/navigation/menuLinks/ClaimMenuLinks'
 import { t } from 'testcafe'
-import world from "../../../util/gw/world";
+import world from '../../../util/gw/world'
 
 const claimStatus: ClaimStatus = new ClaimStatus()
 const claimMenuLinks: ClaimMenuLinks = new ClaimMenuLinks();

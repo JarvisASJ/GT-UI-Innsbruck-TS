@@ -1,23 +1,23 @@
-import { When, Then } from "@cucumber/cucumber";
-import { t } from "testcafe";
-import { FnolScenario } from "../../../../ui/actions/gw/cc/FNOLScenario";
-import { SearchScenario } from "../../../../ui/actions/gw/cc/SearchScenario";
-import { NavigationScenario } from "../../../../ui/actions/gw/cc/NavigationScenario";
-import helper from "../../../../ui/util/gw/helper";
-import { ClaimSummaryScenario } from "../../../../ui/actions/gw/cc/ClaimSummaryScenario";
+import { When, Then } from '@cucumber/cucumber';
+import { t } from 'testcafe';
+import { FnolScenario } from '../../../../ui/actions/gw/cc/FNOLScenario';
+import { SearchScenario } from '../../../../ui/actions/gw/cc/SearchScenario';
+import { NavigationScenario } from '../../../../ui/actions/gw/cc/NavigationScenario';
+import helper from '../../../../ui/util/gw/helper';
+import { ClaimSummaryScenario } from '../../../../ui/actions/gw/cc/ClaimSummaryScenario';
 
 const fnolScenario: FnolScenario = new FnolScenario();
 const searchScenario: SearchScenario = new SearchScenario();
 const navigationScenario: NavigationScenario = new NavigationScenario();
 const claimSummaryScenario: ClaimSummaryScenario = new ClaimSummaryScenario();
 
-When(/^the user creates new FNOL/, async function (): Promise<void> {
+When(/^the user creates new FNOL/, async (): Promise<void> => {
     await navigationScenario.navigateToNewClaimWizard();
     await fnolScenario.newFnolCreation();
     await fnolScenario.readClaimNumber();
 });
 
-When(/^the user search with claim number/, async function (): Promise<void> {
+When(/^the user search with claim number/, async (): Promise<void> => {
     await navigationScenario.openClaim(t.ctx.claimNo);
 });
 
