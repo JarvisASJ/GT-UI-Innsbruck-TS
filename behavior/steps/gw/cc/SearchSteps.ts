@@ -4,6 +4,7 @@ import { NavigationScenario } from '../../../../ui/actions/gw/cc/NavigationScena
 import { ClaimSummaryScenario } from '../../../../ui/actions/gw/cc/ClaimSummaryScenario';
 import helper from '../../../../ui/util/gw/helper';
 import world from '../../../../ui/util/gw/world';
+import { t } from 'testcafe';
 
 const searchScenario: SearchScenario = new SearchScenario();
 const navigationScenario: NavigationScenario = new NavigationScenario();
@@ -19,30 +20,30 @@ Then(/^the claim details are loaded successfully/, async (): Promise<void> => {
     await claimSummaryScenario.verifySummaryHeader();
 });
 
-When(/^the user searches the contact/, async function (): Promise<void> {
+When(/^the user searches the contact/, async (): Promise<void> => {
     await searchScenario.searchContact();
 });
 
-When(/^the user creates the recovery/, async function (): Promise<void> {
+When(/^the user creates the recovery/, async (): Promise<void> => {
     await searchScenario.recoveryCreation();
 });
 
-Then(/^the user searches for the recovery details/, async function (t): Promise<void> {
+Then(/^the user searches for the recovery details/, async (): Promise<void> => {
     await searchScenario.searchRecovery(t.ctx.claimNo);
 });
 
-When(/^the recovery details are loaded/, async function (): Promise<void> {
+When(/^the recovery details are loaded/, async (): Promise<void> => {
     await searchScenario.validateRecovery();
 });
 
-Then(/^the search contact details are loaded/, async function (): Promise<void> {
+Then(/^the search contact details are loaded/, async (): Promise<void> => {
     await searchScenario.searchValidation();
 });
 
-Then(/^the user search the check/, async function (): Promise<void> {
+Then(/^the user search the check/, async (): Promise<void> => {
     await searchScenario.searchCheck();
 });
 
-Then(/^the check details are loaded/, async function (): Promise<void> {
+Then(/^the check details are loaded/, async (): Promise<void> => {
     await searchScenario.validateCheckDetailsHeader();
 });
