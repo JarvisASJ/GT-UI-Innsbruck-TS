@@ -1,14 +1,14 @@
-import { ClaimTabBar_Ext } from "./scenarioPages/navigation/tabBar/ClaimTabBar_Ext"
-import { SearchTabBar_Ext } from "./scenarioPages/search/claimSearchesGroup/SearchTabBar_Ext"
+import { ClaimTabBar_Ext } from './scenarioPages/navigation/tabBar/ClaimTabBar_Ext'
+import { SearchTabBar_Ext } from './scenarioPages/navigation/tabBar/SearchTabBar_Ext'
 
-const claimTabBar_Ext = new ClaimTabBar_Ext()
-const searchTabBar_Ext = new SearchTabBar_Ext()
+const claimTabBar_Ext: ClaimTabBar_Ext = new ClaimTabBar_Ext();
+const searchTabBar_Ext: SearchTabBar_Ext = new SearchTabBar_Ext();
 
 export class NavigationScenario {
 
   async navigateToNewClaimWizard(): Promise<void> {
-    await claimTabBar_Ext.tabBarClaimChevron.click()
-    await claimTabBar_Ext.claimTabClaimTab_FNOLWizard.click()
+    await claimTabBar_Ext.tabBarClaimChevron.click();
+    await claimTabBar_Ext.claimTabClaimTab_FNOLWizard.click();
   }
 
   async openClaim(claimNumber: string): Promise<void> {
@@ -18,7 +18,7 @@ export class NavigationScenario {
   }
 
   async navigateSearchPolicyScreen(): Promise<void> {
-    await searchTabBar_Ext.tabBarSearchTab.click()
-    console.log('On Search Claims Screen')
+    await searchTabBar_Ext.tabBarSearchTab.click();
+    console.log('On Search Claims Screen');
   }
 }

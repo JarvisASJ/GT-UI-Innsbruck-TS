@@ -1,0 +1,527 @@
+[
+  {
+    "description": "Feature: Add Activity in Claim center",
+    "elements": [
+      {
+        "id": "ScenarioScenario: Adding the activity",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Adding the activity",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\behavior\\features\\gw\\designatedFunctions\\LOBAgnostic\\cc\\AddActivity.feature:1:0"
+            },
+            "name": "Scenario: Adding the activity",
+            "result": {
+              "duration": 85036,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Scenario: Adding the activity</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Feature: Add Activity in Claim center",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "126.0.0.0"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2024-07-11T12:50:57.806Z",
+      "startTime": "2024-07-11T12:40:32.188Z"
+    },
+    "name": "Add Activity in Claim center",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@adding"
+      },
+      {
+        "line": 0,
+        "name": "@activity"
+      },
+      {
+        "line": 0,
+        "name": "@add"
+      },
+      {
+        "line": 0,
+        "name": "@claim"
+      },
+      {
+        "line": 0,
+        "name": "@center"
+      }
+    ],
+    "uri": "C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\behavior\\features\\gw\\designatedFunctions\\LOBAgnostic\\cc\\AddActivity.feature:1"
+  },
+  {
+    "description": "Feature: Adding note in claim center",
+    "elements": [
+      {
+        "id": "ScenarioScenario: Adding notes in a claim center",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Adding notes in a claim center",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\behavior\\features\\gw\\designatedFunctions\\LOBAgnostic\\cc\\AddNote.feature:1:0"
+            },
+            "name": "Scenario: Adding notes in a claim center",
+            "result": {
+              "duration": 73011,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Scenario: Adding notes in a claim center</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Feature: Adding note in claim center",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "126.0.0.0"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2024-07-11T12:50:57.806Z",
+      "startTime": "2024-07-11T12:40:32.188Z"
+    },
+    "name": "Adding note in claim center",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@adding"
+      },
+      {
+        "line": 0,
+        "name": "@notes"
+      },
+      {
+        "line": 0,
+        "name": "@claim"
+      },
+      {
+        "line": 0,
+        "name": "@center"
+      },
+      {
+        "line": 0,
+        "name": "@note"
+      }
+    ],
+    "uri": "C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\behavior\\features\\gw\\designatedFunctions\\LOBAgnostic\\cc\\AddNote.feature:1"
+  },
+  {
+    "description": "Feature: View Claim Summary",
+    "elements": [
+      {
+        "id": "ScenarioScenario: Viewing the summary of an claim",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Viewing the summary of an claim",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\behavior\\features\\gw\\designatedFunctions\\LOBAgnostic\\cc\\ClaimSummary.feature:1:0"
+            },
+            "name": "Scenario: Viewing the summary of an claim",
+            "result": {
+              "duration": 86342,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Scenario: Viewing the summary of an claim</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Feature: View Claim Summary",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "126.0.0.0"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2024-07-11T12:50:57.806Z",
+      "startTime": "2024-07-11T12:40:32.188Z"
+    },
+    "name": "View Claim Summary",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@viewing"
+      },
+      {
+        "line": 0,
+        "name": "@summary"
+      },
+      {
+        "line": 0,
+        "name": "@claim"
+      },
+      {
+        "line": 0,
+        "name": "@view"
+      }
+    ],
+    "uri": "C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\behavior\\features\\gw\\designatedFunctions\\LOBAgnostic\\cc\\ClaimSummary.feature:1"
+  },
+  {
+    "description": "Feature: Capturing first notice of loss",
+    "elements": [
+      {
+        "id": "ScenarioScenario: Creating a new fnol with commercial policy",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Creating a new fnol with commercial policy",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\behavior\\features\\gw\\designatedFunctions\\LOBAgnostic\\cc\\Fnol.feature:1:0"
+            },
+            "name": "Scenario: Creating a new fnol with commercial policy",
+            "result": {
+              "duration": 73345,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Scenario: Creating a new fnol with commercial policy</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Feature: Capturing first notice of loss",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "126.0.0.0"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2024-07-11T12:50:57.806Z",
+      "startTime": "2024-07-11T12:40:32.188Z"
+    },
+    "name": "Capturing first notice of loss",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@creating"
+      },
+      {
+        "line": 0,
+        "name": "@new"
+      },
+      {
+        "line": 0,
+        "name": "@fnol"
+      },
+      {
+        "line": 0,
+        "name": "@commercial"
+      },
+      {
+        "line": 0,
+        "name": "@policy"
+      },
+      {
+        "line": 0,
+        "name": "@capturing"
+      },
+      {
+        "line": 0,
+        "name": "@first"
+      },
+      {
+        "line": 0,
+        "name": "@notice"
+      },
+      {
+        "line": 0,
+        "name": "@loss"
+      }
+    ],
+    "uri": "C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\behavior\\features\\gw\\designatedFunctions\\LOBAgnostic\\cc\\Fnol.feature:1"
+  },
+  {
+    "description": "Feature: Search menu in claim center",
+    "elements": [
+      {
+        "id": "ScenarioScenario: Searching check in claim center",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Searching check in claim center",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\behavior\\features\\gw\\designatedFunctions\\LOBAgnostic\\cc\\Search.feature:1:0"
+            },
+            "name": "Scenario: Searching check in claim center",
+            "result": {
+              "duration": 50765,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Scenario: Searching check in claim center</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioScenario: Searching contact in claim center",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Searching contact in claim center",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\behavior\\features\\gw\\designatedFunctions\\LOBAgnostic\\cc\\Search.feature:1:0"
+            },
+            "name": "Scenario: Searching contact in claim center",
+            "result": {
+              "duration": 60384,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Scenario: Searching contact in claim center</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioScenario: Seaching with policy from search claims",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Seaching with policy from search claims",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "failed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\behavior\\features\\gw\\designatedFunctions\\LOBAgnostic\\cc\\Search.feature:1:0"
+            },
+            "name": "Scenario: Seaching with policy from search claims",
+            "result": {
+              "duration": 116475,
+              "error_message": "1) AssertionError: expected false to be truthy\n\n   Browser: Chrome 126.0.0.0 / Windows 10\n\n      13 |         await claimMenuLinks.claim_ClaimSummaryGroupClaimSummaryGroup_ClaimStatus.click()\n      14 |         await t.expect(claimStatus.claimStatusClaimStatus.component.textContent).eql(world.dataMap.get('ClaimStatus'))\n      15 |     }\n      16 | \n      17 |     async verifySummaryHeader(): Promise<void> {\n   --------------------------------------------\n    &rarr; 18 |         await t.expect((claimSummary_Ext.summaryHeader).component.exists).ok();\n   --------------------------------------------\n      19 |     }\n      20 | }\n\n      at ClaimSummaryScenario.<anonymous> (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\ui\\actions\\gw\\cc\\ClaimSummaryScenario.ts:18:75)\n      at <anonymous> (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\ui\\actions\\gw\\cc\\ClaimSummaryScenario.ts:8:71)\n      at __awaiter (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\ui\\actions\\gw\\cc\\ClaimSummaryScenario.ts:4:12)\n      at ClaimSummaryScenario.verifySummaryHeader (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\ui\\actions\\gw\\cc\\ClaimSummaryScenario.ts:29:16)\n\n      14 |     await searchScenario.searchWithPolicy(world.dataMap.get('PolicyNumber'));\n      15 | });\n      16 | \n      17 | Then(/^the claim details are loaded successfully/, async function (): Promise<void> {\n      18 |     await helper.searchTableRecord(\"Claim\", world.dataMap.get('ClaimNo'));\n   --------------------------------------------\n    &rarr; 19 |     await claimSummaryScenario.verifySummaryHeader();\n   --------------------------------------------\n      20 | });\n      21 | \n      22 | When(/^the user searches the contact/, async function (): Promise<void> {\n      23 |     await searchScenario.searchContact();\n      24 | });\n\n      at <anonymous> (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\behavior\\steps\\gw\\cc\\SearchSteps.ts:19:32)\n      at fulfilled (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\behavior\\steps\\gw\\cc\\SearchSteps.ts:5:58)",
+              "status": "failed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Scenario: Seaching with policy from search claims</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioScenario: Searching recovery in claim center",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Searching recovery in claim center",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\behavior\\features\\gw\\designatedFunctions\\LOBAgnostic\\cc\\Search.feature:1:0"
+            },
+            "name": "Scenario: Searching recovery in claim center",
+            "result": {
+              "duration": 80077,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Scenario: Searching recovery in claim center</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Feature: Search menu in claim center",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "126.0.0.0"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2024-07-11T12:50:57.806Z",
+      "startTime": "2024-07-11T12:40:32.188Z"
+    },
+    "name": "Search menu in claim center",
+    "runInfo": {
+      "endTime": "2024-07-11T12:50:57.804Z",
+      "passed": 7,
+      "startTime": "2024-07-11T12:40:32.188Z",
+      "testCount": 8,
+      "userAgents": [
+        "Chrome 126.0.0.0 / Windows 10"
+      ],
+      "warnings": [
+        "Was unable to take a screenshot due to an error.\n\nError: Unable to locate the page area in the browser window screenshot at C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\reports\\uibehaviortests\\screenshots\\2024-07-11_18-10-30\\test-7\\Chrome_126.0.0.0_Windows_10\\errors\\1.png, because the page area mark with ID 2454553916 is not found in the screenshot.\n    at calculateClipInfo (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\crop.js:119:19)\n    at Object.cropScreenshot (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\crop.js:136:18)\n    at C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\capturer.js:152:40\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at Capturer._capture (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\capturer.js:133:9)\n    at Capturer.captureError (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\capturer.js:190:16)\n    at BrowserManipulationQueue._takeScreenshot (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\test-run\\browser-manipulation-queue.js:55:20)\n    at BrowserManipulationQueue._executeCommand (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\test-run\\browser-manipulation-queue.js:83:24)\n    at BrowserManipulationQueue.executePendingManipulation (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\test-run\\browser-manipulation-queue.js:112:24)\n    at TestRun.ready-for-browser-manipulation (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\test-run\\index.ts:1546:22)\n    at TestRun.handleServiceMessage (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe-hammerhead\\lib\\session\\index.js:72:20)\n    at Proxy._onServiceMessage (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe-hammerhead\\lib\\proxy\\index.js:131:32)",
+        "Was unable to take a screenshot due to an error.\n\nError: Unable to locate the page area in the browser window screenshot at C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\reports\\uibehaviortests\\screenshots\\2024-07-11_18-10-30\\test-7\\Chrome_126.0.0.0_Windows_10\\errors\\2.png, because the page area mark with ID 2091858777 is not found in the screenshot.\n    at calculateClipInfo (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\crop.js:119:19)\n    at Object.cropScreenshot (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\crop.js:136:18)\n    at C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\capturer.js:152:40\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at Capturer._capture (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\capturer.js:133:9)\n    at Capturer.captureError (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\capturer.js:190:16)\n    at BrowserManipulationQueue._takeScreenshot (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\test-run\\browser-manipulation-queue.js:55:20)\n    at BrowserManipulationQueue._executeCommand (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\test-run\\browser-manipulation-queue.js:83:24)\n    at BrowserManipulationQueue.executePendingManipulation (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\test-run\\browser-manipulation-queue.js:112:24)\n    at TestRun.ready-for-browser-manipulation (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\test-run\\index.ts:1546:22)\n    at TestRun.handleServiceMessage (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe-hammerhead\\lib\\session\\index.js:72:20)\n    at Proxy._onServiceMessage (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe-hammerhead\\lib\\proxy\\index.js:131:32)",
+        "Was unable to take a screenshot due to an error.\n\nError: Unable to locate the page area in the browser window screenshot at C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\reports\\uibehaviortests\\screenshots\\2024-07-11_18-10-30\\test-7\\Chrome_126.0.0.0_Windows_10\\errors\\3.png, because the page area mark with ID 2483581745 is not found in the screenshot.\n    at calculateClipInfo (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\crop.js:119:19)\n    at Object.cropScreenshot (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\crop.js:136:18)\n    at C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\capturer.js:152:40\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at Capturer._capture (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\capturer.js:133:9)\n    at Capturer.captureError (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\capturer.js:190:16)\n    at BrowserManipulationQueue._takeScreenshot (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\test-run\\browser-manipulation-queue.js:55:20)\n    at BrowserManipulationQueue._executeCommand (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\test-run\\browser-manipulation-queue.js:83:24)\n    at BrowserManipulationQueue.executePendingManipulation (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\test-run\\browser-manipulation-queue.js:112:24)\n    at TestRun.ready-for-browser-manipulation (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\test-run\\index.ts:1546:22)\n    at TestRun.handleServiceMessage (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe-hammerhead\\lib\\session\\index.js:72:20)\n    at Proxy._onServiceMessage (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe-hammerhead\\lib\\proxy\\index.js:131:32)"
+      ]
+    },
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@searching"
+      },
+      {
+        "line": 0,
+        "name": "@recovery"
+      },
+      {
+        "line": 0,
+        "name": "@claim"
+      },
+      {
+        "line": 0,
+        "name": "@center"
+      },
+      {
+        "line": 0,
+        "name": "@seaching"
+      },
+      {
+        "line": 0,
+        "name": "@policy"
+      },
+      {
+        "line": 0,
+        "name": "@from"
+      },
+      {
+        "line": 0,
+        "name": "@search"
+      },
+      {
+        "line": 0,
+        "name": "@claims"
+      },
+      {
+        "line": 0,
+        "name": "@contact"
+      },
+      {
+        "line": 0,
+        "name": "@check"
+      },
+      {
+        "line": 0,
+        "name": "@menu"
+      }
+    ],
+    "uri": "C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\behavior\\features\\gw\\designatedFunctions\\LOBAgnostic\\cc\\Search.feature:1"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "description": "Feature: Search menu in claim center",
+    "elements": [
+      {
+        "id": "ScenarioScenario: Seaching with policy from search claims",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Seaching with policy from search claims",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\behavior\\features\\gw\\designatedFunctions\\LOBAgnostic\\cc\\Search.feature:1:0"
+            },
+            "name": "Scenario: Seaching with policy from search claims",
+            "result": {
+              "duration": 96741,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Scenario: Seaching with policy from search claims</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Feature: Search menu in claim center",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "126.0.0.0"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2024-07-11T12:38:07.772Z",
+      "startTime": "2024-07-11T12:36:30.959Z"
+    },
+    "name": "Search menu in claim center",
+    "runInfo": {
+      "endTime": "2024-07-11T12:38:07.770Z",
+      "passed": 1,
+      "startTime": "2024-07-11T12:36:30.959Z",
+      "testCount": 1,
+      "userAgents": [
+        "Chrome 126.0.0.0 / Windows 10"
+      ],
+      "warnings": [
+        "Was unable to take a screenshot due to an error.\n\nError: Unable to locate the page area in the browser window screenshot at C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\reports\\uibehaviortests\\screenshots\\2024-07-11_18-06-30\\test-1\\Chrome_126.0.0.0_Windows_10\\errors\\1.png, because the page area mark with ID 3948305689 is not found in the screenshot.\n    at calculateClipInfo (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\crop.js:119:19)\n    at Object.cropScreenshot (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\crop.js:136:18)\n    at C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\capturer.js:152:40\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at Capturer._capture (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\capturer.js:133:9)\n    at Capturer.captureError (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\screenshots\\capturer.js:190:16)\n    at BrowserManipulationQueue._takeScreenshot (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\test-run\\browser-manipulation-queue.js:55:20)\n    at BrowserManipulationQueue._executeCommand (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\test-run\\browser-manipulation-queue.js:83:24)\n    at BrowserManipulationQueue.executePendingManipulation (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\test-run\\browser-manipulation-queue.js:112:24)\n    at TestRun.ready-for-browser-manipulation (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe\\src\\test-run\\index.ts:1546:22)\n    at TestRun.handleServiceMessage (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe-hammerhead\\lib\\session\\index.js:72:20)\n    at Proxy._onServiceMessage (C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\node_modules\\testcafe-hammerhead\\lib\\proxy\\index.js:131:32)"
+      ]
+    },
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@seaching"
+      },
+      {
+        "line": 0,
+        "name": "@policy"
+      },
+      {
+        "line": 0,
+        "name": "@from"
+      },
+      {
+        "line": 0,
+        "name": "@search"
+      },
+      {
+        "line": 0,
+        "name": "@claims"
+      },
+      {
+        "line": 0,
+        "name": "@menu"
+      },
+      {
+        "line": 0,
+        "name": "@claim"
+      },
+      {
+        "line": 0,
+        "name": "@center"
+      }
+    ],
+    "uri": "C:\\Users\\RamyaMuralidharan\\GT_UI_TS_Conv\\GT-UI-Innsbruck-TS\\behavior\\features\\gw\\designatedFunctions\\LOBAgnostic\\cc\\Search.feature:1"
+  }
+]
